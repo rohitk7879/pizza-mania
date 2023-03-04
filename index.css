@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    color: white;
+    background-color: black;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    font-family: 'Ruda', sans-serif;;
+}
+.middle{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.middle > a{
+    
+    text-decoration: none;
+    gap: 10px;
+    color: white;
+}
+.right{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    
+    /* padding: 20px; */
+    
+}
+.right > a >img{
+    width: 20px !important;
+    height: 20px !important;
+
+}
+/* main */
+
+.main{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    padding: 50px;
+    color: white;
+    padding-top: 120px;
+}
+.main > .para > p{
+    font-size: 90px;
+    font-weight: 700px;
+    font-family: 'Quattrocento', serif;
+    
+}
+
+.line{
+    width: 460px;
+    height: 10px;
+    background-color: #B62828;
+    ;
+    
+}
+.content{
+    width: 340px;
+    height: 200px;
+    font-family: 'Ruda', sans-serif;;
+    font-weight: 700px;
+}
+
+
+.about{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: black;
+    color: white;
+    padding: 50px 100px;
+    gap: 50px;
+}
+
+.about-us{
+    display: flex;
+    flex-flow: column wrap;
+    /* gap: 10px; */
+    align-items: center;
+    
+
+}
+.about-us > p{
+    font-size: 60px;
+    font-weight: 400px;
+    font-family: 'Quattrocento', serif;
+}
+.about-us > .line1{
+    width: 520px;
+    height: 6px;
+    background-color: #B62828;
+}
+.content1{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.content1 > p{
+    width: 400px;
+    height: 300px;
+    padding-top: 100px;
+    font-weight: 400px;
+    font-family: 'Ruda', sans-serif;;
+
+}
+.content1 > img{
+    width: 500px;
+    height: 400px;
+    
+}
+.content1 > p > span{
+    width: 100px;
+    height: 6px;
+    background-color: #B62828;
+}
+
+.menu{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: black;
+    
+}
+
+.menu > .menu1{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+.menu > .menu1 > p{
+    font-size: 60px;
+    font-weight: 400px; 
+    color: white;
+    padding-top: 50px;
+    font-family: 'Quattrocento', serif;
+
+
+}
+.menu > .menu1 > div{
+    height: 6px;
+    width: 470px;
+    background-color: #B62828;
+}
+
+.menu > .paragraph{
+    color: white;
+    padding: 30px 200px 30px 200px;
+    margin-top: 20px;
+    width: 800px;
+    height: 100px;
+    text-align: left;
+    font-family: 'Ruda', sans-serif;;
+
+    
+}
+
+.menulist{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    justify-content: space-around;
+    padding: 20px;
+}
+.menulist > .grid-items{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+.menulist > .grid-items > div{
+    display: flex;
+    flex-flow: column wrap;
+    width: 200px;
+    gap: 5px;
+    color: white;
+}
+.menulist > .grid-items > div > h4{
+    font-family: 'Ruda', sans-serif;;
+    color: #F2C94C;
+}
+.menulist > .grid-items > div > p{
+    font-family: 'Ruda', sans-serif;;
+  
+
+}
+.menulist > .grid-items > img{
+    width: 200px;
+    height: 150px;
+}
+.find-us{
+    color: white;
+    background-color: black;
+}
+.find-us > .headline{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+.find-us > .headline >p{
+    font-size: 60px;
+    font-weight: 400px; 
+    color: white;
+    font-family: 'Quattrocento', serif;
+
+}
+.find-us > .headline > .line2{
+    height: 6px;
+    width: 470px;
+    background-color: #B62828;
+    
+
+}
+.find-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.find-content{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+    font-family: 'Ruda', sans-serif;;
+
+}
+.find-img > img{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+}
+.find-content{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+.find-content > .address{
+    width: 500px
+}
+.find-content > .location > .location1{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    padding: 20px 20px 20px 0px;
+    align-items: center;
+}
+.find-content > .location > .location1 >.location2{
+    font-size: 35px !important;
+}
+.find-content > .location > .location1 > .text{
+    font-size: 15px;
+}
+.find-content > .location > .contact{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 20px 20px 0px;
+    
+}
+.find-content > .location > .contact > .phone{
+    font-size: 35px;
+}
+.find-content > .location > .contact > div > .number{
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.find-content > .location > .contact > div > .number1{
+    font-size: 15px;
+}
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white !important;
+    padding: 30px 50px 80px 50px;
+    font-family: 'Ruda', sans-serif;;
+
+}
+.footer > .footer-content{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+.footer > .footer-content > .email{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+.footer > .footer-content > .phone1{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
